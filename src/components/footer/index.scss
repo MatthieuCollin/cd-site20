@@ -1,0 +1,35 @@
+footer{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+
+    nav{
+        
+        display: flex;
+        flex-direction: column;
+        img{
+            width: 50px;
+        }
+        a{
+            transition: 0.5s;
+            text-decoration: none;
+            color: black;
+            font-weight: 1000;
+            font-size: 1.2em;
+        }
+        a:hover{
+            transition: 0.5s;
+            text-decoration: underline;
+            color: purple;
+        }
+    }
+
+    p{
+        width: 30%;
+        font-size: 1.2em;
+        text-align: justify;
+    }
+}

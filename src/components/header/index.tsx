@@ -14,7 +14,6 @@ export default function Header (){
                     <a href="/collection">Collection</a>
                     <a href="/wanted">Recherché</a>
                     <a href="/about">A propos</a>
-
                 </nav>
             </header>
         )
